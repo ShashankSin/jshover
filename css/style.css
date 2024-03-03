@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Saira Semi Condensed", sans-serif;
+  color: #fff;
+}
+section {
+  background-color: #9bacef;
+}
+.card--container {
+  flex-wrap: wrap;
+}
+.category--heading small {
+  font-size: 20px;
+}
+.category--heading span {
+  display: inline-block;
+  background-color: #eaaa02;
+  width: 75px;
+  height: 2px;
+}
+.category--heading h5 {
+  font-size: 30px;
+}
+
+.card--container--details {
+  padding: 30px 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 45%;
+}
+.card--container--details:hover {
+  transition: background-color 0.5s;
+  background-color: #000;
+}
+.card--container--details:hover .card--container--text h6 {
+  transition: color 0.5s;
+  color: #fff;
+}
+/* .card--container--details:hover .card--container--details--logo img {
+  transition: -webkit-box-reflect 1s;
+  -webkit-box-reflect: right -40px;
+} */
+.card--container--details--logo {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background-color: #e7e7e7;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card--container--details--logo img {
+  width: 100%;
+  height: 100%;
+}
+.card--container--text p {
+  color: #686868;
+  font-size: 12px;
+  margin-bottom: 0.5rem !important;
+}
+.card--container--text h6 {
+  color: #000;
+  margin: 0;
+  font-size: 20px;
+}
+.card--container__image {
+  width: 700px;
+  height: 480px;
+  /* background-image: url(/images/card-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+/* .card--container--details--commercial:hover .card--container__image {
+  background-image: url(/images/card-2.jpg);
+}
+.card--container--details--industrial:hover .card--container__image {
+  background-image: url(/images/card-3.png);
+}
+.card--container--details--pool:hover .card--container__image {
+  background-image: url(/images/card-4.png);
+} */
+.card--container__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* .card--container--details:hover .card--container__image img:first-child {
+  display: none;
+}
+.card--container--details--commercial:hover
+  .card--container__image
+  img:nth-child(2) {
+  display: block;
+}
+.card--container--details--industrial:hover
+  .card--container__image
+  img:nth-child(3) {
+  display: block;
+}
+.card--container--details--pool:hover .card--container__image img:last-child {
+  display: block;
+} */
+.hide {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+}
