@@ -69,10 +69,15 @@ section {
 }
 .card--container__image {
   width: 700px;
-  height: 440px;
-  background-image: url(/images/card-1.jpg);
+  height: 48 0px;
+  /* background-image: url(/images/card-1.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+}
+.card--container__image img:nth-child(2),
+.card--container__image img:nth-child(3),
+.card--container__image img:last-child {
+  display: none;
 }
 /* .card--container--details--commercial:hover .card--container__image {
   background-image: url(/images/card-2.jpg);

@@ -1,20 +1,41 @@
 function residental() {
-  document.getElementsByClassName(
-    "card--container__image"
-  ).style.backgroundImage = "url('images/card-1.jpg')";
+  document.getElementById("card--container__image--card1").style.display =
+    "block";
+  document.getElementById("card--container__image--card2").style.display =
+    "none";
+  document.getElementById("card--container__image--card3").style.display =
+    "none";
+  document.getElementById("card--container__image--card4").style.display =
+    "none";
 }
 function commercial() {
-  document.getElementsByClassName(
-    "card--container__image"
-  ).style.backgroundImage = "url('images/card-2.jpg')";
+  document.getElementById("card--container__image--card1").style.display =
+    "none";
+  document.getElementById("card--container__image--card2").style.display =
+    "block";
+  document.getElementById("card--container__image--card3").style.display =
+    "none";
+  document.getElementById("card--container__image--card4").style.display =
+    "none";
 }
 function industrial() {
-  document.getElementsByClassName(
-    "card--container__image"
-  ).style.backgroundImage = "url('images/card-3.png')";
+  document.getElementById("card--container__image--card1").style.display =
+    "none";
+  document.getElementById("card--container__image--card2").style.display =
+    "none";
+  document.getElementById("card--container__image--card3").style.display =
+    "block";
+  document.getElementById("card--container__image--card4").style.display =
+    "none";
 }
 function pool() {
-  document.getElementsByClassName(
-    "card--container__image"
-  ).style.backgroundImage = "url('images/card-4.png')";
+  document;
+  document.getElementById("card--container__image--card1").style.display =
+    "none";
+  document.getElementById("card--container__image--card2").style.display =
+    "none";
+  document.getElementById("card--container__image--card3").style.display =
+    "none";
+  document.getElementById("card--container__image--card4").style.display =
+    "block";
 }
