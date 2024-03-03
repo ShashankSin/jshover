@@ -69,10 +69,10 @@ section {
 }
 .card--container__image {
   width: 700px;
-  height: 480px;
-  /* background-image: url(/images/card-1.jpg);
+  height: 440px;
+  background-image: url(/images/card-1.jpg);
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: center;
 }
 /* .card--container--details--commercial:hover .card--container__image {
   background-image: url(/images/card-2.jpg);
